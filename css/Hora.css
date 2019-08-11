@@ -1,0 +1,231 @@
+ @charset="UTF-8";
+ /* Unidade = 1em = 12pt = 16px = 100% */
+img#TopEtec {
+	width:100%;
+}
+ div#Azul{
+	background-color: rgb(0, 0, 128);
+	height: 98px;
+	width: 98.9%;
+	position: absolute;
+	border: 3px;
+	border-style: solid;
+	border-color: rgb(0, 0, 50);
+	font-family: Courier;
+	color: white;
+	font-size: 22pt;
+	padding-top: 12px;
+}
+div#AzulA{
+	background-color: rgb(0, 0, 128);
+	height: 100px;
+	width: 98.9%;
+	position: absolute;
+	top: 405px;
+	border: 3px;
+	border-style: solid;
+	border-color: rgb(0, 0, 50);
+}
+div#Dica{
+	width: 60px;
+	height: 60px;
+	background-color: rgba( 255, 215, 0, 0);
+	border-radius: 59px;
+	border: 4px;
+	border-style: solid;
+	border-color: rgb(255, 190, 0);
+	margin-top:-60px;
+	margin-left:320px;
+	transition: 3s;
+	color: rgba(0, 0, 0, 0);
+	font-family: Trebuchet MS;
+	font-size: 0pt;
+	
+}
+div#Dica:hover{
+	width: 900px;
+	background-color: rgba(255, 215,  0, 0.8);
+	color: rgba(0, 0, 0, 1);
+	font-size:12pt;
+}
+div#Dica p{
+	position:absolute;
+	margin-top:-59px;
+	margin-left: 65px;
+}
+
+img#LogoE{
+	position: absolute;
+	top: 170px;
+	left: 30px;
+	border: 3px;
+	border-style: solid;
+	border-color: rgb(139, 137, 137);
+	border-radius: 150px;
+}
+img#LogoC{
+	position: absolute;
+	top: 250px;
+	left: 100px;
+	border: 3px;
+	border-style: solid;
+	border-color: rgb(139, 137, 137);
+	border-radius: 150px;
+}
+td#Menu{
+	margin-left: 0px;
+	margin-right: 0px;
+	
+}
+tr#Menu{
+	position:absolute;
+	margin-top: 33px; 
+	margin-right: -3px;
+	margin-left: 0px;
+	font-family: Trebuchet MS;
+	font-size: 15pt;
+	border-style: outset;
+	border-color: rgb(0, 0, 50);
+	background-color: rgba(0, 0, 0, 1);
+	transition: 0.5s;
+}
+
+tr#Menu a{
+	color: rgb(255, 255, 255);
+	background-color: rgb(0, 0, 0);
+	text-decoration: none;
+	transition: 0.5s
+}
+tr#Menu:hover{
+	font-size: 18pt;
+}
+tr#Menu td{
+	border-style: none groove none none;
+	border-color: rgb(255, 255, 255);
+}
+
+tr#Menu td#A{
+	padding-left: 41px;
+	padding-right: 40px;
+}
+tr#Menu td#B{
+	padding-left: 40px;
+	padding-right: 0px;
+}
+tr#Menu td#C{
+	padding-left: 40px;
+	padding-right: 40px;
+}
+tr#Menu td#D{
+	padding-left: 50px;
+	padding-right: 0px;
+}
+tr#Menu td#E{
+	padding-left: 40px;
+	padding-right: 40px;
+}
+tr#Menu td#a{
+	margin-left: 40px;
+	margin-right: 40px;
+}
+td#Menu a{
+	color: black;
+	text-decoration: none;
+}
+
+
+tr#Menu-1{
+	position:absolute;
+	margin-top: 80px; 
+	margin-right: -3px;
+	margin-left: -5px;
+	font-family: Trebuchet MS;
+	font-size: 15pt;
+	border-style: outset;
+	border-color: gray;
+	background-color: white;
+	transition: 0.5s;
+}
+
+tr#Menu-1 a{
+	color: rgb(0, 0, 0);
+	background-color: white;
+	text-decoration: none;
+	transition: 0.5s
+}
+tr#Menu-1:hover{
+	font-size: 18pt;
+}
+tr#Menu-1 td{
+	border-style: none groove none none;
+	border-color: gray;
+}
+
+tr#Menu-1 td#A{
+	padding-left: 41px;
+	padding-right: 40px;
+}
+tr#Menu-1 td#B{
+	padding-left: 40px;
+	padding-right: 0px;
+}
+tr#Menu-1 td#C{
+	padding-left: 40px;
+	padding-right: 40px;
+}
+tr#Menu-1 td#D{
+	padding-left: 50px;
+	padding-right: 0px;
+}
+tr#Menu-1 td#E{
+	padding-left: 40px;
+	padding-right: 40px;
+}
+tr#Menu-1 td#a{
+	margin-left: 40px;
+	margin-right: 40px;
+}
+td#Menu-1 a{
+	color: black;
+	text-decoration: none;
+}
+
+
+table#Horarios {
+	border: 5px;
+	border-style: solid;
+	border-color: rgba(0, 24, 128, 0.9);
+	border-radius:20px;
+	margin-top: 150px;
+	margin-bottom: 70px;
+	
+}
+table#Horarios td{
+	text-align:center;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 30px;
+	font-family: Trebuchet MS;
+	border-radius:0px;
+}
+table#Horarios td#A{
+	font-family: Trebuchet MS;
+	color: White;
+}
+table#Horarios a{
+	color: rgb(0, 0, 120);
+}
+table#Horarios a:hover{
+	text-decoration: blink;
+}
+p#Auto {
+	margin-left: 1130px;
+	font-family: Arial;
+	font-size:16pt;
+	text-align: center;
+	color: rgb(0, 0, 0);
+	border: 3px;
+	border-style: solid;
+	border-color: rgb(0, 0, 108);
+	border-radius: 20px;
+}
